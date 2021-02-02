@@ -1,8 +1,11 @@
 nav {
   display: flex;
   flex-direction: row;
-  background-color: rgb(216, 186, 186);
+  background-color: #002651;
   height: 100px;
+  top: 0px;
+  left: 0px;
+  height: 82px;
 }
 .spacer {
   width: 1500px;
@@ -13,7 +16,9 @@ nav {
   margin: 2%;
   font-size: larger;
   font-weight: 500;
+  
 }
 a {
   text-decoration: none;
+  color: grey;
 }
