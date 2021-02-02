@@ -1,13 +1,26 @@
 .welcomehome {
+  
   display: flex;
   flex-direction: row;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2%;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #left-side {
   width: 45%;
   background: transparent linear-gradient(154deg, #002651 0%, #366a9f 100%) 0%
     0% no-repeat padding-box;
-  height: 100vh;
+  height: 85vh;
+  
 }
+#right-side {
+  width: 55%;
+  height: 85vh;
+  background-color: #eaedf1;
+}
+
 .welcomeName {
   text-align: center;
   font-size: xx-large;
@@ -33,7 +46,3 @@
   opacity: 1;
 }
 
-#right-side {
-  width: 55%;
-  height: 100vh;
-}
