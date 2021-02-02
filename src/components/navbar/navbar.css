@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(216, 186, 186);
+  height: 100px;
+}
+.spacer {
+  width: 1500px;
+}
+.navlink {
+  height: 20px;
+  margin-top: 2%;
+  margin: 2%;
+  font-size: larger;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+}
