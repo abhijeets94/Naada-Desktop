@@ -11,14 +11,19 @@ nav {
   width: 1500px;
 }
 .navlink {
-  height: 20px;
-  margin-top: 2%;
-  margin: 2%;
-  font-size: larger;
-  font-weight: 500;
-  
+  height: 10px;  
+  margin: 1%;
 }
 a {
   text-decoration: none;
-  color: grey;
+  color: #8C71E8;
+}
+
+.naada{
+  text-align: center;
+  font-size:200%;
+  margin:1;
+  letter-spacing: 1px;
+  color: #8C71E8;
+  opacity: 1;
 }

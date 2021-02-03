@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./login.css";
 const LoginComponent = () => {
   const [user, setUser] = useState({
@@ -11,16 +12,18 @@ const LoginComponent = () => {
   };
   const onSubmitHandler = (e) => {
     e.preventDefault();
-    if (user.email === "bleh" && user.password == "123") {
-      alert("bhakk madarchod");
-    } else {
-      alert("yahi patak k chod denge");
-    }
+    console.log(user);
+    setUser({email:'', password:''});
   };
   return (
     <div>
+        
       <form className="signin-container">
-        <div className="ipcontainer">
+    <div className = "loginTag">
+    <p >LOGIN</p>
+    </div>
+      
+        <div className="ipcontainer">          
           <input
             className="inputlogin"
             type="email"
@@ -42,8 +45,15 @@ const LoginComponent = () => {
         </div>
 
         <button className="submitbtm" onClick={onSubmitHandler}>
-          Continue...
+          Continue
         </button>
+        <div className = "signUpTag">
+            <small style = {{color: '#767373'}}>
+                New?
+            </small>
+            <Link to = "signup" style = {{color:'#002651', fontWeight:'501', marginLeft:'3px'}}>
+                Sign Up</Link>
+        </div>
       </form>
     </div>
   );

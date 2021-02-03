@@ -1,10 +1,17 @@
 .signin-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 40%;
+  align-items: left;
+  margin-top: 20%;
+  margin-left: 20%;
 }
 
+.loginTag{
+    color: #002651;
+    font-size: x-large;
+    font-weight: 501;
+    letter-spacing: 1px;    
+}
 .ipcontainer {
   height: 5rem;
   width: 20rem;
@@ -18,11 +25,17 @@
 }
 .submitbtm{
     height: 3rem;
-    width: 6rem;
-    border: none;
-    background-color:inherit;
-    font-size: large;
-    color: green;
+    width: 22rem;
+    background-color:#002651;
+    font-size: medium;
+    color: white;
     cursor: pointer;
+    border-radius: 15px;
+
+}
+
+.signUpTag{
+    margin-top: 35%;
+    
 }
 
