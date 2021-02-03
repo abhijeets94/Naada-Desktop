@@ -8,8 +8,7 @@ const LoginPage = () => {
         <div class = "welcomehome">
 
             <div id = "left-side">
-                <Welcome welcomeTag = "Welcome" descTag = "to live streaming app" naadaTag = "Naada"/>
-            
+                <Welcome welcomeTag = "Welcome" descTag = "to live streaming app" naadaTag = "Naada"/>          
     
             </div>
 
