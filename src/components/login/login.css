@@ -1,0 +1,28 @@
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40%;
+}
+
+.ipcontainer {
+  height: 5rem;
+  width: 20rem;
+}
+.inputlogin {
+  height: 3rem;
+  border: 1px solid #707070;
+  width: 20rem;
+  border-radius: 15px;
+  padding-left: 10%;
+}
+.submitbtm{
+    height: 3rem;
+    width: 6rem;
+    border: none;
+    background-color:inherit;
+    font-size: large;
+    color: green;
+    cursor: pointer;
+}
+
