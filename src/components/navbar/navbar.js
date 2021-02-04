@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import homeIcon from "../../assets/Home icon.jpg"
-import msgIcon from "../../assets/Chatbox icon.jpg"
-import notifIcon from "../../assets/Notification icon.jpg"
-import profilePic from "../../assets/bruce-mars-DBGwy-2.jpg"
+import homeIcon from "../../assets/DesktopIconsSVG/DesktopIconsSVG/Icon material-home.svg"
+import msgIcon from "../../assets/DesktopIconsSVG/DesktopIconsSVG/Icon ionic-ios-chatboxes.svg"
+import notifIcon from "../../assets/DesktopIconsSVG/DesktopIconsSVG/Icon ionic-ios-notifications.svg"
+import giftIcon from "../../assets/DesktopIconsSVG/DesktopIconsSVG/Icon ionic-ios-gift.svg"
+import profilePic from "../../assets/DesktopIconsSVG/DesktopIconsSVG/Icon material-people.svg"
 
 
 import "./navbar.css";
@@ -22,7 +23,7 @@ const Navbar = () => {
           <Link to="/chat"><img src = {msgIcon}></img></Link>
         </div>
         <div className="navlink">
-          <Link to="/merchandise">Merchandise</Link>
+          <Link to="/merchandise"><img src = {giftIcon}></img></Link>
         </div>
         <div className="navlink">
           <Link to="/notification"><img src = {notifIcon}></img></Link>
