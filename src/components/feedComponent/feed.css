@@ -1,0 +1,11 @@
+.feed-container{
+    display: flex;
+    flex-direction:column;
+    height:fit-content;
+    width: fit-content;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid black;
+
+}
+
