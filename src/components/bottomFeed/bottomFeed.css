@@ -1,0 +1,53 @@
+.comment-sec{
+
+    display:flex;
+    /* background-color:pink; */
+    
+}
+
+.comment, .attending, .interested, .cost, .buyTickets{
+    margin-left: 3%;
+    margin-top: 1%;
+    justify-content: space-evenly;
+}
+
+.cost{
+    padding-left: 35%;
+}
+
+.attending button{
+
+    border: 1px none #3f95ab;
+    padding: 10%;
+    margin-top:25%;
+    color: #3f95ab;
+    border-radius: 3px;
+
+}
+
+.interested button{
+
+    border: 1px none #002651;
+    border-radius: 3px;
+    padding: 10%;
+    margin-top:25%;
+    color: #ffffff;
+    background-color: #3f95ab;
+}
+.buyTickets button{
+
+    border: 1px none #002651;
+    padding: 10%;
+    margin-top:4%;
+    width: 8rem;
+    color: #ffffff;
+    background-color: #002651;
+    border-radius: 3px;
+
+}
+
+.comment img{
+    margin-top: 30%;
+    margin-left: 5px;
+}
+

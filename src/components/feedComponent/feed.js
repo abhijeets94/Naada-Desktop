@@ -1,6 +1,7 @@
 import React from 'react'
 import './feed.css';
 import bandPic from '../../assets/DesktopIconsJPG/alex-zamora-FU-1.jpg';
+import BottomFeed from '../bottomFeed/bottomFeed.js'
 
 
 
@@ -30,7 +31,11 @@ const Feed = (props) => {
                     </img> 
                 </h3>
             </div>
-            <p>COMMENT COMPONENT TBM</p>
+            <div className = 'underFeed'>
+               <BottomFeed
+               comments = {props.comments}
+               price = {props.price}/>
+            </div>
         </div>)
 }
 

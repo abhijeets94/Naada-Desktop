@@ -1,22 +1,25 @@
-.hompage-container{
+.homepage-container{
 
-    overflow: hidden;
+  display:flex;
+  flex-direction:row;
+  margin-top: 82px;
 }
-::-webkit-scrollbar {
-    width: 10px;
-  }
+
+.sidebar-container{
+
+  /* border: 3px solid pink; */
+  height:100vh;
+  width: 20%;
+  position: fixed;
+  background-color: #D4E6FADE;
   
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
+
+}
+
+.feedContainer{
+  height:fit-content;
+  padding-left: 20%;
+  width: 80%;
+  margin-left: 20%;
   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
+}
