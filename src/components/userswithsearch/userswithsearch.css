@@ -1,0 +1,50 @@
+.usersWithSeacrhContainers{
+ 
+    margin-top: 82px;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.searchbox {
+    height: fit-content;
+  
+  
+}
+.searchbox input {
+    height: 2rem;
+    width: 80%;
+    margin: 1rem;
+    margin-left: 3rem;
+    padding:0.6rem;
+ 
+    border: 2px solid grey;
+    border-radius: 20px;
+
+  
+}
+.chatusersContainer{
+      display: flex;
+    flex-direction: column;
+}
+.onechatusers{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+ cursor: pointer;
+   
+}
+.onechatuser-img img{
+    height: 5rem;
+    width: 5rem;
+  cursor: pointer;
+    padding: 4%;
+}
+.onechatuser-name h1{
+    
+  text-align: center;
+  cursor: pointer;
+    padding: 10%;
+   
+}
