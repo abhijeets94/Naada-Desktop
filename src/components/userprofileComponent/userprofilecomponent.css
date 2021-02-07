@@ -1,0 +1,22 @@
+.usrprofilecomp-container{
+ display: flex;
+ flex-direction: column;
+}
+.upperContainer{
+    height: 200px;
+    background-color:red ;
+display: flex;
+flex-direction: row;
+}
+.imageContainerProfile{
+    width:20%;
+    height: 100%;
+    background-color:purple ;
+
+}
+.userdescriptionContainer{
+    width: 80%;
+    height: 100%;
+    background-color:yellow ;
+
+} 

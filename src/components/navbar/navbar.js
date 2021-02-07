@@ -39,18 +39,24 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navlink">
-          <Link  onClick={()=>setDropDown(!dropDown)}>
-           
-              <img src={profilePic}></img>
-           
+          <Link onMouseEnter={() => setDropDown(!dropDown)} to="/userprofile">
+            <img src={profilePic}></img>
           </Link>
         </div>
       </nav>
-      {
-        dropDown ? 
-          <DropDown />
-          : null
-      }
+      {dropDown ? (
+        <DropDown onMouseLeave={() => setDropDown(!dropDown)}>
+          <p>
+            <Link to="/edituser">Edit Profile</Link>
+          </p>
+          <p>Booking History</p>
+          <p>Add Bank </p>
+          <p>Go Live!! </p>
+          <p>Change Password</p>
+          <p>Help/Support</p>
+          <p>Logout</p>
+        </DropDown>
+      ) : null}
     </div>
   );
 };
