@@ -11,10 +11,12 @@
     font-size: x-large;
     font-weight: 501;
     letter-spacing: 1px;    
+    transition: all 250ms ease-in-out;
 }
 .ipcontainer {
   height: 5rem;
   width: 20rem;
+  transition: all 250ms ease-in-out;
 }
 .inputlogin {
   height: 3rem;
@@ -22,6 +24,7 @@
   width: 20rem;
   border-radius: 15px;
   padding-left: 10%;
+  transition: all 250ms ease-in-out;
 }
 .submitbtm{
     height: 3rem;

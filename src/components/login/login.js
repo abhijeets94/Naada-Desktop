@@ -51,7 +51,7 @@ const LoginComponent = () => {
             <small style = {{color: '#767373'}}>
                 New?
             </small>
-            <Link to = "signup" style = {{color:'#002651', fontWeight:'501', marginLeft:'3px'}}>
+            <Link to = "/signup" style = {{color:'#002651', fontWeight:'501', marginLeft:'3px'}}>
                 Sign Up</Link>
         </div>
       </form>

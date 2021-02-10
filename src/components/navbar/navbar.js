@@ -47,14 +47,16 @@ const Navbar = () => {
       {dropDown ? (
         <DropDown onMouseLeave={() => setDropDown(!dropDown)}>
           <p>
-            <Link to="/edituser">Edit Profile</Link>
+            <Link to="/editprofile">Edit Profile</Link>
           </p>
           <p>Booking History</p>
           <p>Add Bank </p>
           <p>Go Live!! </p>
           <p>Change Password</p>
           <p>Help/Support</p>
-          <p>Logout</p>
+          <p> 
+            <Link to = "/login">Logout</Link>
+            </p>
         </DropDown>
       ) : null}
     </div>

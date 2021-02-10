@@ -5,14 +5,13 @@
 .upperContainer{
     height: 200px;
     margin-top: 2rem;
-    /* background-color:red ; */
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 .imageContainerProfile{
     width:20%;
     height: 100%;
-    /* background-color:purple ; */
+   
 
 }
 

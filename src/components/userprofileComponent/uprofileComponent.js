@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import profilePic from "../../assets/DesktopIconsJPG/bruce-mars-DBGwy-1.jpg"
 import "./userprofilecomponent.css";
 const UserProfileComponent = () => {
@@ -27,7 +28,7 @@ const UserProfileComponent = () => {
                         <p>ROCK</p>
                   </div>
                   <div className = "editProfileBtn">
-                        <button>Edit Profile</button>
+                        <button className = 'editProfile'><Link to = "/editprofile">Edit Profile</Link></button>
                   </div>
 
               </div>
