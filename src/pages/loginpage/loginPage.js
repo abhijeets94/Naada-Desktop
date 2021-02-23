@@ -13,6 +13,7 @@ const LoginPage = () => {
             descTag="to live streaming app"
             naadaTag="Naada"
           />
+          
         </div>
 
         <div id="right-side">

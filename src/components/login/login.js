@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+import {useDispatch} from 'react-redux'
 import { Link } from "react-router-dom";
+import {isLogged} from '../../Redux/User/userActions'
 import "./login.css";
 const LoginComponent = () => {
+  const dispatch = useDispatch()
   const [user, setUser] = useState({
     email: "",
     password: "",
@@ -13,7 +16,7 @@ const LoginComponent = () => {
   const onSubmitHandler = (e) => {
     e.preventDefault();
     console.log(user);
-    setUser({email:'', password:''});
+     dispatch(isLogged(user))
   };
   return (
     <div>

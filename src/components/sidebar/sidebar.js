@@ -1,7 +1,9 @@
 import React from 'react';
 import '../sidebar/sidebar.css';
-
+import { useSelector } from 'react-redux';
 const SidebarComponent = (props) => {
+    const user = useSelector((state) => state.user)
+    console.log("user  " , user.customer);
     return(
         <div className = 'sideBar'>
             
