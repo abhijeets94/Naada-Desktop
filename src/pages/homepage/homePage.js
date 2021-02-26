@@ -3,32 +3,13 @@ import Feed from '../../components/feedComponent/feed'
 import SidebarComponent  from '../../components/sidebar/sidebar'
 import '../homepage/homepage.css'
 import userImage from '../../assets/DesktopIconsJPG/bruce-mars-DBGwy-1.jpg'
+import { useSelector } from 'react-redux';
 
-const FeedData = [{
-    name: 'Niharika',
-    band: 'Beetles',
-    artist: 'Arijit Singh',
-    comments : ['lots of fun', 'amazing', 'wow'],
-    price: 2000   
-},
-{
-    name: 'Bharath',
-    band: 'RamSetu',
-    artist: 'Anuv Jain',
-    comments : ['lots of fun', 'wow'],
-    price: 1500   
-},
-{
-    name: 'Abhijeet',
-    band: 'Queens',
-    artist: 'Dhinchak Pooja',
-    comments : ['lots of lots', 'amazing', 'wow'],
-    price: 20000   
-}
+ 
 
-]
-
-const HomePage = ()=>{
+const HomePage = () => {
+    const Merch = useSelector((state) => state.merch);
+    console.log(Merch)
     return(
         <div className = 'homepage-container'>
             <div className = "sidebar-container">
@@ -42,7 +23,7 @@ const HomePage = ()=>{
                 />
             </div>
 
-            <div className = 'feedContainer'>
+            {/* <div className = 'feedContainer'>
             {
                 FeedData.map((oneFeed) => <Feed
                 name = {oneFeed.name}
@@ -53,7 +34,7 @@ const HomePage = ()=>{
                 
             }
 
-            </div>
+            </div> */}
         </div>
     )
 

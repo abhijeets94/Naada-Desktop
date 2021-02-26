@@ -1,4 +1,3 @@
- 
 
 const INITIAL_STATE = {
   UserSignedIn: false,
@@ -12,6 +11,12 @@ const userReducer = (state = INITIAL_STATE, action) => {
         ...state,
         UserSignedIn: true,
         customer: action.payload,
+      };
+    case "LOGGED_OUT":
+      return {
+        ...state,
+        UserSignedIn: false,
+        customer: [],
       };
   
     default:
