@@ -11,7 +11,7 @@ const MerchComp = (props) => {
         <p>{props.merchName}</p>
       </div>
       <div className="merchPrice">
-        <p>{props.merchPrice}</p>
+        <p>${props.merchPrice}/-</p>
       </div>
     </div>
   );

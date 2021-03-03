@@ -23,3 +23,11 @@ a{
 }
 }
 `;
+export const SearchBar = Styled.input`
+
+width:40vw;
+padding:1.5%;
+border:2px solid grey;
+border-radius:5px;
+
+`

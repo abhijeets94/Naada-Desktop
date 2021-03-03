@@ -2,6 +2,7 @@ import React from "react";
 import "./merchandise.css";
 import MerchComp from "../../components/merchComp/merchComp";
 import SidebarComponent from "../../components/sidebar/sidebar";
+import {SearchBar} from '../../StyledComponents/Styles'
 import userImage from "../../assets/DesktopIconsJPG/bruce-mars-DBGwy-1.jpg";
 const Merchandise = () => {
   const items = [
@@ -67,15 +68,38 @@ const Merchandise = () => {
           genre="sufi"
         />
       </div>
-      <div className="merchitems">
-        {items.map((oneItem) => (
-          <MerchComp
-            imgURL={oneItem.imgurl}
-            merchName={oneItem.name}
-            merchPrice={oneItem.cost}
-            id={oneItem.id}
-          />
-        ))}
+
+      <div className="searchNmerch">
+        <strong>welcome back NATASHA</strong>
+        <div style={{ marginTop: "2%" }}>
+          <SearchBar placeholder="search merch" />
+        </div>
+        <div>
+          <h2>YOUR MECHANDISE</h2>
+          <div className="merchitems">
+            {items.map((oneItem) => (
+              <MerchComp
+                imgURL={oneItem.imgurl}
+                merchName={oneItem.name}
+                merchPrice={oneItem.cost}
+                id={oneItem.id}
+              />
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2>SHOP OTHER ARTIST</h2>
+          <div className="merchitems">
+            {items.map((oneItem) => (
+              <MerchComp
+                imgURL={oneItem.imgurl}
+                merchName={oneItem.name}
+                merchPrice={oneItem.cost}
+                id={oneItem.id}
+              />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
