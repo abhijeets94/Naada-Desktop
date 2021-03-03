@@ -5,7 +5,7 @@ const MerchComp = (props) => {
   return (
     <div className="merchComponent">
       <div className="imageMerch">
-        <img src={props.imgURL} />
+        <img src={props.imgURL} alt='' />
       </div>
       <div className="merchName">
         <p>{props.merchName}</p>

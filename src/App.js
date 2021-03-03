@@ -6,7 +6,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import UserProfilePage  from "./pages/usrProfile/userprofile";
 import  ChatPage  from "./pages/chatpage/chatpage";
 import Navbar from './components/navbar/navbar';
-import Merchandise from './pages/merchandise/merchandise'
+import Merchandise from "./pages/merchandise/merchandise";
+import Events from "./pages/eventspage/eventspage";
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
       <Route exact path="/userprofile" component={UserProfilePage} />
       <Route exact path="/chat" component={ChatPage} />
       <Route exact path="/editprofile" component={EditProfilePage} />
-      <Route exact path="/merchandise" component={Merchandise}/>
-
+      <Route exact path="/merchandise" component={Merchandise} />
+      <Route exact path="/events" component={Events} />
     </Router>
   );
 }
