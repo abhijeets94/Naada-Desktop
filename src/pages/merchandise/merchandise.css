@@ -5,15 +5,12 @@
   width: 100vw;
 }
 .merchitems {
-  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-margin-top: 2%;
+  margin-top: 2%;
   justify-content: left;
   align-items: left;
- 
- 
 }
 .sidebar-container {
   /* border: 3px solid pink; */
@@ -21,11 +18,8 @@ margin-top: 2%;
   width: 20vw;
   position: fixed;
 }
-.seachbar{
- 
-   
-}
-.searchNmerch{
- margin-top: 10px;
-    margin-left: 25%;
+
+.searchNmerch {
+  margin-top: 10px;
+  margin-left: 25%;
 }

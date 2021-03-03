@@ -2,7 +2,7 @@ import React from "react";
 import "./merchandise.css";
 import MerchComp from "../../components/merchComp/merchComp";
 import SidebarComponent from "../../components/sidebar/sidebar";
-import {SearchBar} from '../../StyledComponents/Styles'
+import { SearchBar } from "../../StyledComponents/Styles";
 import userImage from "../../assets/DesktopIconsJPG/bruce-mars-DBGwy-1.jpg";
 const Merchandise = () => {
   const items = [
