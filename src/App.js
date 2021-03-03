@@ -5,7 +5,8 @@ import EditProfilePage from "./pages/editProfilePage/editProfile"
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import UserProfilePage  from "./pages/usrProfile/userprofile";
 import  ChatPage  from "./pages/chatpage/chatpage";
-import Navbar from './components/navbar/navbar'
+import Navbar from './components/navbar/navbar';
+import Merchandise from './pages/merchandise/merchandise'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Route exact path="/userprofile" component={UserProfilePage} />
       <Route exact path="/chat" component={ChatPage} />
       <Route exact path="/editprofile" component={EditProfilePage} />
-      
+      <Route exact path="/merchandise" component={Merchandise}/>
 
     </Router>
   );

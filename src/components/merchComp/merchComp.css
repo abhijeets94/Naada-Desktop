@@ -1,0 +1,14 @@
+.merchComponent{
+background-color: red;
+height:20rem;
+width: 20rem;
+margin: 1rem;
+border:2px solid black;
+
+}
+
+.imageMerch img{
+    width:100%;
+    height:auto;
+}
+
