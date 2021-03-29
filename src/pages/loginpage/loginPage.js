@@ -15,7 +15,6 @@ const LoginPage = () => {
           />
           
         </div>
-
         <div id="right-side">
           <LoginComponent />
         </div>

@@ -14,12 +14,6 @@ const HomePage = () => {
         <div className = 'homepage-container'>
             <div className = "sidebar-container">
                 <SidebarComponent
-                        ImageURL = {userImage}
-                        UserName = "Niharika"
-                        following = "2K"
-                        location = "Bangalore"
-                        occupation = "DJ"
-                        genre = "sufi"
                 />
             </div>
 
